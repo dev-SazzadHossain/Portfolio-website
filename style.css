@@ -90,3 +90,36 @@ section#about\ row {
 }
 
 /*====================== about css =============*/
+/*====================== service css =============*/
+.services.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+p.services-para {
+    width: 80%;
+    text-align: justify;
+    max-width: 100%;
+    line-height: 26px;
+    word-break: break-all;
+}
+
+.services-head {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i.fa-solid.fa-laptop-code {
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+
+h3.service-heading {
+    text-transform: capitalize;
+}
+
+/*====================== service css =============*/
