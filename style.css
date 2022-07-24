@@ -1,0 +1,92 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500&family=Lora:wght@500&family=Roboto:ital,wght@0,100;0,900;1,500;1,700;1,900&display=swap');
+
+/* google font link */
+body {
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: #f1f2f6
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* header css  */
+i.fa-solid.fa-user {
+    font-size: 3rem;
+}
+
+div#navbarNav {
+    justify-content: end;
+}
+
+li.nav-item {
+    padding: 0px 25px;
+}
+
+/* header css close */
+/* ----------------------silder section--------------- */
+section#slider-section {
+    background-image: url(images/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+h2 {
+    font-size: 5rem;
+    color: black;
+}
+
+
+/* ----------------------silder section--------------- */
+/*====================== about css =============*/
+.about-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-wrapper {
+    width: 50%;
+    max-width: 100%;
+    padding: 20px 0px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.about-info {
+    padding-left: 203px;
+    list-style: none;
+}
+
+.about-img {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about-header {
+    padding: 20px 0px;
+}
+
+i.fa-solid.fa-check {
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section#about\ row {
+    background: #f1f2f6
+}
+
+/*====================== about css =============*/

@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+    .about-wrapper {
+        width: 100%;
+    }
+
+    .about-info {
+        padding: 0px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width:992px) {
+    .about-wrapper {
+        width: 100%;
+    }
+}
