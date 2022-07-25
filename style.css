@@ -134,6 +134,11 @@ p.services-para {
     padding: 30px 0px;
 }
 
+.servicess-title {
+    width: 100%;
+    text-align: center;
+}
+
 i.fa-solid.fa-laptop-code {
     font-size: 3rem;
     padding: 20px 0px;
