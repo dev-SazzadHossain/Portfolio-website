@@ -20,10 +20,26 @@
     .services.wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* ======================contact================================ */
+    .contact-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ======================contact================================ */
+    /* ======================footer================================ */
+    .footer-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        height: auto;
+    }
 }
 
 @media (min-width: 576px) and (max-width:992px) {
     .about-wrapper {
         width: 100%;
+        padding: 20px 0px;
     }
 }

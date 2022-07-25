@@ -12,6 +12,10 @@ img {
     max-width: 100%;
 }
 
+li {
+    list-style: none;
+}
+
 /* header css  */
 i.fa-solid.fa-user {
     font-size: 3rem;
@@ -49,6 +53,10 @@ h2 {
 
 /* ----------------------silder section--------------- */
 /*====================== about css =============*/
+section#about {
+    margin: 50px 0px;
+}
+
 .about-head {
     display: flex;
     flex-direction: column;
@@ -91,6 +99,18 @@ section#about\ row {
 
 /*====================== about css =============*/
 /*====================== service css =============*/
+section#services {
+    margin-bottom: 50px;
+}
+
+h3.services-text {
+    padding: 20px 0px;
+}
+
+.services-title {
+    text-align: center;
+}
+
 .services.wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -111,6 +131,7 @@ p.services-para {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
 }
 
 i.fa-solid.fa-laptop-code {
@@ -123,3 +144,121 @@ h3.service-heading {
 }
 
 /*====================== service css =============*/
+/*====================== Contact css =============*/
+section#contact {
+    margin-bottom: 50px;
+}
+
+.contact-heading {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-left {
+    border-radius: 20px;
+    height: 220px;
+}
+
+.contact-left h5 {
+    padding-bottom: 10px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-info {
+    padding-left: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input[type="text"] {
+    margin: 10px 0px;
+}
+
+input[type="email"] {
+    margin: 10px 0px;
+}
+
+input#lastName {
+    margin: 10px 0px;
+}
+
+input#number {
+    margin: 10px 0px;
+}
+
+textarea.form-control {
+    margin: 10px 0px;
+}
+
+.contact-btn {
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.contact-right {
+    padding: 10px 0px;
+}
+
+
+/*====================== contact css =============*/
+/* =========================footer================ */
+footer {
+    height: 50vh;
+    max-height: 100vh;
+    background: #bbbbbb;
+}
+
+.footer-title {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer-left {
+    padding-left: 30px;
+}
+
+.footer-icon {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+li.icon-footer {
+    margin-right: 15px;
+}
+
+.footer-middle {
+    padding-left: 30px;
+}
+
+.footer-right {
+    padding-left: 30px;
+}
+
+li.right-icon {
+    line-height: 39px;
+}
+
+li.right-icons {
+    line-height: 27px;
+}
+
+/* =========================footer================ */
